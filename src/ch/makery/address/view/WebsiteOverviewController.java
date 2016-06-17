@@ -56,6 +56,7 @@ public class WebsiteOverviewController {
 		}
 	}
 
+	//shows details
 	private void showWebsiteDetails(Website website) {
 		if (website != null) {
 			urlLabel.setText(website.getUrl());
